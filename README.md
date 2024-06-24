@@ -1,22 +1,19 @@
-#Twitter Smart Contract
+#ErrorHandling_twitter.sol
 This is a simple Ethereum smart contract that mimics basic Twitter functionalities. It allows users to create, like, and delete tweets. The contract is implemented using Solidity and can be deployed on the Ethereum blockchain.
 
 Prerequisites
 Remix IDE or any other Solidity development environment
 An Ethereum wallet (e.g., MetaMask) for deploying and interacting with the contract
 Basic understanding of Solidity and smart contract development
-
 Getting Started
-
+Open in Remix IDE
 Open the Remix IDE.
 Create a new file and paste the contents of Twitter.sol from this repository.
 Deployment
-Compile the contract:
-
+Compile the contract
 Select the appropriate Solidity compiler version (>=0.6.12 <0.9.0).
 Click on the "Compile" button to compile the contract.
-Deploy the contract:
-
+Deploy the contract
 Go to the "Deploy & Run Transactions" tab.
 Select the environment (e.g., JavaScript VM, Injected Web3).
 Click on the "Deploy" button.
@@ -82,4 +79,6 @@ id: The ID of the tweet.
 Requirements:
 The tweet ID must be valid.
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
